@@ -77,7 +77,7 @@ try {
   userTruck.accelerate(truckSpeed);
   
   // printing speed
-  console.log("You accelerate to " +  userTruck.currentSpeed() 
+  console.log("You accelerate to " +  parseFloat(userTruck.currentSpeed())
                      + " km/h");
   // slow down
   console.log();
@@ -86,7 +86,7 @@ try {
   userTruck.decelerate(truckSlow);
   
   // printing speed
-  console.log("Your current speed: " +  userTruck.currentSpeed() 
+  console.log("Your current speed: " +  parseFloat(userTruck.currentSpeed())
                      + " km/h");
   
   // sequence end

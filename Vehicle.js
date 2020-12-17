@@ -54,7 +54,7 @@ class Vehicle {
    */
 
   decelerate(brakeSpeed) {
-    if ((this.speed - this.brakeSpeed) > 0) {
+    if ((this.speed - brakeSpeed) > 0) {
       this.speed = this.speed - brakeSpeed; 
     } else if ((this.speed - brakeSpeed) < 0) {
       this.speed = 0;
